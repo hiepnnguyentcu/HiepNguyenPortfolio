@@ -240,24 +240,95 @@ const Resume = () => (
         </AccordionItem>
       </Accordion>
 
+      <Heading as="h3" fontSize={20} mb={4} marginTop="30px">
+        Technical Skills
+      </Heading>
+
       <Accordion defaultIndex={[0]} allowMultiple>
         <AccordionItem>
           <h2>
             <AccordionButton>
-              <Heading as="h3" fontSize={20} mb={4} marginTop="30px">
-                Technical Skills
-              </Heading>
+              <Text flex="1" textAlign="left" fontWeight="bold">
+                Programming Languages
+              </Text>
+              <AccordionIcon />
+            </AccordionButton>
+          </h2>
+
+          <AccordionPanel pb={5}>
+            <UnorderedList marginLeft={10}>
+              <ListItem>Java/JavaScript, Swift, Python, C/C++</ListItem>
+            </UnorderedList>
+          </AccordionPanel>
+        </AccordionItem>
+
+        <AccordionItem>
+          <h2>
+            <AccordionButton>
+              <Text flex="1" textAlign="left" fontWeight="bold">
+                Operating Systems
+              </Text>
+              <AccordionIcon />
+            </AccordionButton>
+          </h2>
+
+          <AccordionPanel pb={5}>
+            <UnorderedList marginLeft={10}>
+              <ListItem>MacOS, Windows, Unix/ Linux</ListItem>
+            </UnorderedList>
+          </AccordionPanel>
+        </AccordionItem>
+
+        <AccordionItem>
+          <h2>
+            <AccordionButton>
+              <Text flex="1" textAlign="left" fontWeight="bold">
+                Familiar Frameworks & Tools
+              </Text>
+              <AccordionIcon />
+            </AccordionButton>
+          </h2>
+
+          <AccordionPanel pb={5}>
+            <UnorderedList marginLeft={10}>
+              <ListItem>
+                Web Development: React.JS, Redux, MongoDB, Express.JS, Node.JS
+              </ListItem>
+              <ListItem>
+                Mobile Development: React Native, SwiftUI/ UIKit
+              </ListItem>
+              <ListItem>Others: Figma, Postman </ListItem>
+            </UnorderedList>
+          </AccordionPanel>
+        </AccordionItem>
+      </Accordion>
+
+      <Heading as="h3" fontSize={20} mb={4} marginTop="30px">
+        Extra-curricular Activities
+      </Heading>
+
+      <Accordion defaultIndex={[0]} allowMultiple>
+        <AccordionItem>
+          <h2>
+            <AccordionButton>
+              <Text flex="1" textAlign="left" fontWeight="bold">
+                Sounde LLC.
+              </Text>
+
+              <Text textAlign="right" fontWeight="bold">
+                Spring 2022
+              </Text>
 
               <AccordionIcon />
             </AccordionButton>
           </h2>
 
-          <AccordionPanel pb={10}>
+          <AccordionPanel pb={5}>
             <h3>
               <SimpleGrid columns={2} spacing={10} marginBottom={5}>
                 <Box bg="" height="20px">
                   <Text flex="1" textAlign="left" fontWeight="bold">
-                    Associate Software Engineer
+                    Volunteer Software Engineer
                   </Text>
                 </Box>
               </SimpleGrid>
@@ -265,26 +336,9 @@ const Resume = () => (
 
             <UnorderedList marginLeft={10}>
               <ListItem>
-                Architected a mobile front-end service for regular users and
-                administrators to view employee’s profiles, internal news, post
-                feedbacks and questions by creating module, reusable React
-                Native components, Redux and AntDesign.
-              </ListItem>
-              <ListItem>
-                Integrated CRUD API requests from front-end to back-end services
-                and display corresponding data sets to interface using Axios and
-                Postman.
-              </ListItem>
-              <ListItem>
-                Developed protected routes for administrators to perform user
-                management methods including create new users, delete deprecated
-                users, and display all users’ data.
-              </ListItem>
-
-              <ListItem>
-                Implemented Bearer Authorization for API calls, hashed access
-                tokens and refresh tokens using Bcrypt and stored hashed tokens
-                into AsyncStorage for optimized usage.
+                Developed onboarding storyboards for first-time and returning
+                users, and implemented past-users authentication using UIKit and
+                Firebase.
               </ListItem>
             </UnorderedList>
 
@@ -292,7 +346,96 @@ const Resume = () => (
           </AccordionPanel>
         </AccordionItem>
 
-        
+        <AccordionItem>
+          <h2>
+            <AccordionButton>
+              <Box flex="1" textAlign="left" fontWeight="bold">
+                JPMorgan Chase & Co.
+              </Box>
+
+              <AccordionIcon />
+            </AccordionButton>
+          </h2>
+          <AccordionPanel pb={4}>
+            <h3>
+              <SimpleGrid columns={2} spacing={10} marginBottom={5}>
+                <Text flex="1" textAlign="left" fontWeight="bold">
+                  Software Engineering Virtual Experience
+                </Text>
+              </SimpleGrid>
+            </h3>
+            <UnorderedList marginLeft={10}>
+              <ListItem>
+                Interface with stock data feed website using Python.
+              </ListItem>
+              <ListItem>
+                Display data visually using ReactJS and TypeScript.
+              </ListItem>
+            </UnorderedList>
+            <List />
+          </AccordionPanel>
+        </AccordionItem>
+
+        <AccordionItem>
+          <h2>
+            <AccordionButton>
+              <Box flex="1" textAlign="left" fontWeight="bold">
+                Vietnamese Student Association at TCU
+              </Box>
+
+              <AccordionIcon />
+            </AccordionButton>
+          </h2>
+          <AccordionPanel pb={4}>
+            <h3>
+              <SimpleGrid columns={2} spacing={10} marginBottom={5}>
+                <Text flex="1" textAlign="left" fontWeight="bold">
+                  Vice President of Technology
+                </Text>
+              </SimpleGrid>
+            </h3>
+            <UnorderedList marginLeft={10}>
+              <ListItem>
+                Designed 40+ graphical products (event posters, flyers, and
+                presentations) using Canva Pro and Adobe Photoshop.
+              </ListItem>
+              <ListItem>
+                Responsible for audio-visual coordination during in-person
+                events.{' '}
+              </ListItem>
+            </UnorderedList>
+            <List />
+          </AccordionPanel>
+        </AccordionItem>
+
+        <AccordionItem>
+          <h2>
+            <AccordionButton>
+              <Box flex="1" textAlign="left" fontWeight="bold">
+                Vietnam Olympiad in Informatics Community{' '}
+              </Box>
+
+              <AccordionIcon />
+            </AccordionButton>
+          </h2>
+          <AccordionPanel pb={4}>
+            <h3>
+              <SimpleGrid columns={2} spacing={10} marginBottom={5}>
+                <Text flex="1" textAlign="left" fontWeight="bold">
+                  Volunteer Translator
+                </Text>
+              </SimpleGrid>
+            </h3>
+            <UnorderedList marginLeft={10}>
+              <ListItem>
+                Translated 30+ competitive programming problems from renowned
+                contests including ACM-ICPC, COCI, Atcoder DP Educational from
+                English to Vietnamese.
+              </ListItem>
+            </UnorderedList>
+            <List />
+          </AccordionPanel>
+        </AccordionItem>
       </Accordion>
     </Container>
   </Layout>
