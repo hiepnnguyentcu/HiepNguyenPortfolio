@@ -64,7 +64,7 @@ const Resume = () => (
 
             <UnorderedList marginLeft={10}>
               <ListItem>Faculty Scholarship - 22.000USD per year.</ListItem>
-              <ListItem>Dean's List Fall 2020 and Spring 2021.</ListItem>
+              <ListItem>Dean&apos;s List Fall 2020 and Spring 2021.</ListItem>
               <ListItem>
                 Internship Scholarship - Career Readiness - Summer 2021, Spring
                 and Summer 2022.
@@ -433,6 +433,7 @@ const Resume = () => (
                 English to Vietnamese.
               </ListItem>
             </UnorderedList>
+
             <List />
           </AccordionPanel>
         </AccordionItem>

@@ -8,7 +8,7 @@ import thumbWalknote from '../public/images/works/walknote_eyecatch.png'
 import thumbFourPainters from '../public/images/works/the-four-painters_eyecatch.jpg'
 import thumbMenkiki from '../public/images/works/menkiki_eyecatch.png'
 
-const Works = () => (
+const Projects = () => (
   <Layout title="Projects">
     <Container>
       <Heading as="h3" fontSize={20} mb={4}>
@@ -57,5 +57,5 @@ const Works = () => (
   </Layout>
 )
 
-export default Works
+export default Projects
 export { getServerSideProps } from '../components/chakra'
