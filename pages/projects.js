@@ -4,9 +4,9 @@ import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 
 import thumbEthrift from '../public/images/works/ethrift_01.png'
-import thumbWalknote from '../public/images/works/walknote_eyecatch.png'
-import thumbFourPainters from '../public/images/works/the-four-painters_eyecatch.jpg'
-import thumbMenkiki from '../public/images/works/menkiki_eyecatch.png'
+import thumbCryptoTracker from '../public/images/works/cryptotracker.png'
+import thumbH40RXNews from '../public/images/works/h40rxnews.png'
+import thumbMemories from '../public/images/works/memories.png'
 
 const Projects = () => (
   <Layout title="Projects">
@@ -31,7 +31,7 @@ const Projects = () => (
           <WorkGridItem
             link="https://github.com/hiepnnguyentcu/CryptoTracker"
             title="Crypto Price Tracker"
-            thumbnail={thumbWalknote}
+            thumbnail={thumbCryptoTracker}
           >
             A real-time cryptocurrencies price tracker with charts using React
             Native, Rainbow.me, CoinGekoAPI, Axios and ContextAPI
@@ -42,7 +42,7 @@ const Projects = () => (
           <WorkGridItem
             link="https://github.com/hiepnnguyentcu/H4X0R-News"
             title="H40RX News"
-            thumbnail={thumbFourPainters}
+            thumbnail={thumbH40RXNews}
           >
             An iOS/MacOS-based application to display and access hacker news
             using SwiftUI and Hacker News API
@@ -51,10 +51,10 @@ const Projects = () => (
         <Section delay={0.1}>
           <WorkGridItem
             link="https://github.com/hiepnnguyentcu/Memories-Blog"
-            thumbnail={thumbMenkiki}
+            thumbnail={thumbMemories}
             title="Memories"
           >
-            A web-blog application for keeping memory notes using React, Redux
+            A web-blog application for keeping memory notes and images using React, Redux
             and MongoDB
           </WorkGridItem>
         </Section>
