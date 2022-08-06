@@ -17,7 +17,11 @@ const Projects = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
-          <WorkGridItem id="EThrift" title="EThrift" thumbnail={thumbEthrift}>
+          <WorkGridItem
+            link="https://github.com/hiepnnguyentcu/EThrift"
+            title="EThrift"
+            thumbnail={thumbEthrift}
+          >
             EThrift is a role-based fashion marketplace mobile application with
             friendly user-interface for easy buy and trade!
           </WorkGridItem>
@@ -25,7 +29,7 @@ const Projects = () => (
 
         <Section>
           <WorkGridItem
-            id="Crypto Price Tracker"
+            link="https://github.com/hiepnnguyentcu/CryptoTracker"
             title="Crypto Price Tracker"
             thumbnail={thumbWalknote}
           >
@@ -36,7 +40,7 @@ const Projects = () => (
 
         <Section delay={0.1}>
           <WorkGridItem
-            id="H40RX News"
+            link="https://github.com/hiepnnguyentcu/H4X0R-News"
             title="H40RX News"
             thumbnail={thumbFourPainters}
           >
@@ -45,9 +49,13 @@ const Projects = () => (
           </WorkGridItem>
         </Section>
         <Section delay={0.1}>
-          <WorkGridItem id="menkiki" thumbnail={thumbMenkiki} title="Menkiki">
-            An app that suggests ramen(noodle) shops based on a given photo of
-            the ramen you want to eat
+          <WorkGridItem
+            link="https://github.com/hiepnnguyentcu/Memories-Blog"
+            thumbnail={thumbMenkiki}
+            title="Memories"
+          >
+            A web-blog application for keeping memory notes using React, Redux
+            and MongoDB
           </WorkGridItem>
         </Section>
       </SimpleGrid>
