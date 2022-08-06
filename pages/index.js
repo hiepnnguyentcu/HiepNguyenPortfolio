@@ -153,9 +153,9 @@ const Home = () => (
         </List>
 
         <Box align="center" my={4}>
-          <NextLink href="/posts" passHref scroll={false}>
+          <NextLink href="/projects" passHref scroll={false}>
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
-              Popular posts
+              Personal Projects
             </Button>
           </NextLink>
         </Box>
