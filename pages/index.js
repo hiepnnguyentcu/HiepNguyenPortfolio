@@ -8,7 +8,7 @@ import {
   List,
   Image,
   ListItem,
-  useColorModeValue,
+  useColorModeValue
 } from '@chakra-ui/react'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import Paragraph from '../components/paragraph'
@@ -41,6 +41,12 @@ const Home = () => (
           <p>
             Specialized in Front-end Development <br></br>Mobile Applications
             (React Native/ Swift) and Web (React.JS){' '}
+          </p>
+
+          <br></br>
+
+          <p>
+            Email: hiepnguyentcu@gmail.com <br></br>Phone: (+1) 682-252-8179
           </p>
         </Box>
         <Box
@@ -118,11 +124,8 @@ const Home = () => (
           Find me at
         </Heading>
         <List>
-        <ListItem>
-            <Link
-              href="https://github.com/hiepnnguyentcu"
-              target="_blank"
-            >
+          <ListItem>
+            <Link href="https://github.com/hiepnnguyentcu" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
@@ -132,9 +135,6 @@ const Home = () => (
               </Button>
             </Link>
           </ListItem>
-
-
-
 
           <ListItem>
             <Link
@@ -150,8 +150,6 @@ const Home = () => (
               </Button>
             </Link>
           </ListItem>
-          
-          
         </List>
 
         <Box align="center" my={4}>

@@ -20,7 +20,7 @@ const Resume = () => (
         Education
       </Heading>
 
-      <Accordion defaultIndex={[0]} allowMultiple>
+      <Accordion>
         <AccordionItem>
           <h2>
             <AccordionButton>
@@ -59,7 +59,7 @@ const Resume = () => (
             </p>
 
             <p>
-              Here are some of my achievements at Texas Christian University:
+              Here are my achievements at Texas Christian University:
             </p>
 
             <UnorderedList marginLeft={10}>
@@ -102,11 +102,11 @@ const Resume = () => (
             <p>
               I was a student at Tran Phu High School for Gifted Students,
               located in Hai Phong - Vietnam. I was active in my science
-              competitions and I have achieved some awards in Robotics/ Embedded
+              competitions and I have achieved awards in Robotics/ Embedded
               Systems.
             </p>
 
-            <p>Here are some of my awards:</p>
+            <p>Here are my awards:</p>
 
             <UnorderedList marginLeft={10}>
               <ListItem>
@@ -139,7 +139,7 @@ const Resume = () => (
         Work Experience
       </Heading>
 
-      <Accordion defaultIndex={[0]} allowMultiple>
+      <Accordion>
         <AccordionItem>
           <h2>
             <AccordionButton>
@@ -244,7 +244,7 @@ const Resume = () => (
         Technical Skills
       </Heading>
 
-      <Accordion defaultIndex={[0]} allowMultiple>
+      <Accordion>
         <AccordionItem>
           <h2>
             <AccordionButton>
@@ -307,7 +307,7 @@ const Resume = () => (
         Extra-curricular Activities
       </Heading>
 
-      <Accordion defaultIndex={[0]} allowMultiple>
+      <Accordion>
         <AccordionItem>
           <h2>
             <AccordionButton>
