@@ -160,7 +160,7 @@ const Resume = () => (
               <SimpleGrid columns={2} spacing={10} marginBottom={5}>
                 <Box bg="" height="20px">
                   <Text flex="1" textAlign="left" fontWeight="bold">
-                    Associate Software Engineer
+                    Software Engineer Intern
                   </Text>
                 </Box>
               </SimpleGrid>
